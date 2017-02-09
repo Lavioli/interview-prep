@@ -18,7 +18,22 @@ Logarithmic time complexity with respect to size or number of items.
 There isn't much of a difference in time as size increases, time increases in a non-linear, and much slower/steader rate towards the end(almost like a constant and linear). 
 Ex: Binary Search Trees are used in this matter (see "Log N Runtimes" below)
 
+##More Big O Examples
+* O(1) - Determining if a number is even or odd; using a constant-size lookup table or hash table
 
+* O(log n) - Finding an item in a sorted array with a binary search (finding a name in a telephone book since it's sorted - binary search)
+
+* O(n) - Finding an item in an unsorted list; adding two n-digit numbers (finding a name in a telephone book iteratively given a phone number). Memorization and is used to optimize exponential time recursive algoritms (see example 15)
+
+* O(n^2) - Multiplying two n-digit numbers by a simple algorithm; adding two n×n matrices; bubble sort or insertion sort
+
+* O(n^3) - Multiplying two n×n matrices by simple algorithm
+
+* O(c^n) - Finding the (exact) solution to the traveling salesman problem using dynamic programming; determining if two logical statements are equivalent using brute force. Multiple recursive calls are usually exponential runtime.
+
+* O(n!) - Solving the traveling salesman problem via brute-force search
+
+* O(n^n) - Often used instead of O(n!) to derive simpler formulas for asymptotic complexity
 
 #Space Complexity
 Similar to Time Complexity, it evaluates how much space or memory is required by an algorithm.
